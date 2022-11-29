@@ -16,7 +16,3 @@ formats:
 python:
   install:
     - requirements: requirements.txt
-
-
-    This page's contents are written using RST, all commits are automatically built on rtd and posted live. There are no build files stored locally.
-    aegisub, ass, ssa, subtitles, typesetting
