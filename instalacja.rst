@@ -53,3 +53,28 @@ QuickTime Player
 
 QuickTime Player jest odtwarzaczem wideo zaprojektowanym przez Apple, będzie nam potrzebny do w poprawnego funkcjonowania Mochy - jest on wykorzystywany do odtwarzania większości formatów wideo.
 `Link do oficjalnej strony <https://support.apple.com/pl_PL/downloads/quicktime>`_.
+
+Boris FX Mocha Pro
+==================
+
+.. warning:: 
+    | Link do mochy pochodzi z torrentów, pamiętaj że takie oprogramowanie może być niebezpieczne dla twojego komputera. Przed uruchomieniem sprawdź czy program nie jest skażony wirusem.
+    | Dla bezpieczeństwa zawartość torrentów powinno pobierać się przez serwisy VPN.
+
+| Mocha jest uważana za najlepsze dostępnym obecnie na rynku narzędziem do śledzenia ruchu w wideo.
+| Dostępna jest w kilku formach:
+    1. rozszerzenie do Adobe After Effects
+    2. osobne oprogramowanie
+
+Wszystkie wersje Mochy możesz znaleźć tutaj:
+`Boris FX Mocha PRO 2020 na 1337x.to <https://1337x.to/torrent/4423707/Boris-FX-Mocha-Pro-2020-5-v7-5-0-Build-1274-Plug-ins-for-Adobe-OFX-CrackzSoft/>`__
+Poradnik będzie skupiał się na obsłudze samodzielnej dystrybucji Mochy
+Z plików znajdujących się w torrencie potrzebna ci będzie wersja standalone, instrukcja instalacji powinna znajdować się w odpowiednim pliku :code:`read_me.txt`.
+
+Czcionki
+========
+
+| Ostatnim krokiem instalacji są czcionki. Nie ma tu definitywnej listy, wręcz przeciwnie - prawdopodobnie zawsze będziesz potrzebować jeszcze czegoś, na dobry początek jednak moją paczkę czcionek możesz znaleźć na `mega.nz <ttps://mega.nz/folder/o6BUTT6Q#v1bMX7YsiWt_Rg9TLi1WkA>`_.
+| W poszukiwaniu nowych czcionek warto sprawdzać:
+-  `1001 fonts <https://www.1001fonts.com/>`__
+-  `dafont <https://www.dafont.com/>`__

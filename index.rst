@@ -14,4 +14,5 @@ Dostępne artykuły:
 .. toctree::
 
     Instalacja <instalacja>
+    Podstawy Obsługi Kainote <kainote_podstawy>
     Stary poradnik <old>
