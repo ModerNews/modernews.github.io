@@ -17,3 +17,4 @@ Dostępne artykuły:
     Podstawy Obsługi Kainote <kainote_podstawy>
     Pozycja i Rotacja <position_rotation>
     Odtwarzacz Video - Edytor Graficzny <kainote_video_editor>
+    Automatyzacja zadań w Kainote <kainote_automation>
