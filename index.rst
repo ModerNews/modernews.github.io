@@ -15,4 +15,5 @@ Dostępne artykuły:
 
     Instalacja <instalacja>
     Podstawy Obsługi Kainote <kainote_podstawy>
-    Stary poradnik <old>
+    Pozycja i Rotacja <position_rotation>
+    Odtwarzacz Video - Edytor Graficzny <kainote_video_editor>
