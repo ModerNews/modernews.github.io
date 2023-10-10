@@ -19,4 +19,5 @@ Dostępne artykuły:
     Odtwarzacz Video - Edytor Graficzny <kainote_video_editor>
     Automatyzacja Zadań w Kainote <kainote_automation>
     Proste Animacje <simple_animations>
-    Zaawansowane Animacje - Mocha i Aegisub Motion
+    Zaawansowane Animacje - Mocha i Aegisub Motion <advanced_animations>
+    Parę słów na koniec <summary>
