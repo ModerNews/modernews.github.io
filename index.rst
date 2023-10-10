@@ -17,4 +17,6 @@ Dostępne artykuły:
     Podstawy Obsługi Kainote <kainote_podstawy>
     Pozycja i Rotacja <position_rotation>
     Odtwarzacz Video - Edytor Graficzny <kainote_video_editor>
-    Automatyzacja zadań w Kainote <kainote_automation>
+    Automatyzacja Zadań w Kainote <kainote_automation>
+    Proste Animacje <simple_animations>
+    Zaawansowane Animacje - Mocha i Aegisub Motion

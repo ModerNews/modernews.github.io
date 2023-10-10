@@ -20,7 +20,7 @@ Aegisub Motion
 
 | Będzie to najczęściej używany przez ciebie skrypt.
 | Służy on do generowania zaawansowanych animacji ruchu (śledzenia).
-| Opis działania skryptu znajdziesz w sekcji **Zaawansowane animacje**
+| Opis działania skryptu znajdziesz w sekcji :ref:`Zaawansowane animacje <advanced_anim>`
 
 Gradient Everything
 ~~~~~~~~~~~~~~~~~~~

@@ -14,6 +14,8 @@ Jak było powiedziane na końcu poprzedniego rozdział każdy znak ma swoją poz
 
 Następnie możemy przesunąć tekst względem tego za pomocą tagu :code:`{\pos}`
 
+Dodatkowo zamiast tagu :code:`{\pos}` można wprowadzić tag :code:`{\mov}`, który wprawi znak w ruch. Więcej na ten temat :ref:`tutaj <ruch_1>`.
+
 Obrót w osi Z
 =============
 
