@@ -1,0 +1,946 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
+<title>Typesetting Guide | Typesetting Guide 1a documentation</title>
+<link href="_static/pygments.css" rel="stylesheet"/>
+<link href="_static/theme.9297a650d9dd3016d913.css" rel="stylesheet"/>
+<link href="search.html" rel="search" title="Search"/>
+<link href="genindex.html" rel="index" title="Index"/>
+</head>
+<body class="antialiased text-gray scroll-smooth">
+<div class="min-h-screen xl:h-screen flex flex-col xl:grid xl:grid-layout print:block print:h-auto" data-action="keydown@window-&gt;search#focus " data-controller="sidebar search " id="page">
+<a class="block transition -translate-x-full focus:translate-x-0 opacity-0 focus:opacity-100 text-xl bg-white p-4 z-20 absolute top-0 left-0 h-14" href="#typesetting-guide" title="Skip navigation links">Skip to content</a>
+<header class="grid-area-header z-10 h-14 fixed w-full top-0 print:hidden">
+<div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
+<button class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
+<span class="sr-only">Open navigation menu</span>
+<svg aria-hidden="true" class="fill-current h-8 w-8" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+</button><a class="hover:bg-gray-700 focus:bg-gray-700 focus:outline-none" href="index.html" title="Back to homepage"><span class="hidden lg:inline-block shrink-0 font-medium text-gray-100 mx-5 leading-14 tracking-wider">Typesetting Guide 1a documentation</span>
+</a></div><div class="flex justify-end items-center flex-1"><form action="search.html" class="flex print:hidden justify-between items-center leading-14 md:ml-4 bg-gray-dark text-gray-300 focus-within:bg-gray-50 focus-within:text-gray-800 focus-within:absolute focus-within:inset-x-0 focus-within:top-0 md:focus-within:w-full md:focus-within:static z-10" data-action="click-&gt;search#focusSearchInput" id="searchbox" method="get">
+<button aria-label="Get search results" class="text-inherit h-14 w-14" tabindex="-1">
+<svg aria-hidden="true" class="fill-current stroke-current h-8 w-8" stroke-width="0.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+</button>
+<input aria-label="Search the docs" class="pr-2 bg-transparent text-inherit focus:outline-none w-0 md:w-auto focus:w-full transition-all duration-100" data-search-target="searchInput" id="search-input" name="q" placeholder="Search the docs" type="search"/>
+</form></div>
+</div>
+</header>
+<aside class="grid-area-sidebar h-full fixed pt-14 xl:relative inset-y-0 left-0 z-20 xl:z-0 print:hidden overflow-y-auto transition-all transform transform-gpu -translate-x-full opacity-0 duration-300 xl:translate-x-0 xl:opacity-100" data-sidebar-target="sidebar">
+<nav class="h-full overflow-y-auto bg-white text-gray-600 pt-8 flex flex-col" role="navigation">
+<div class="nav-toc flex-1 pl-6"><ul>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html">Instalacja</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#kainote">Kainote</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#enkodery-wideo">Enkodery Wideo</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#odtwarzacz-wideo">Odtwarzacz wideo</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#quicktime-player">QuickTime Player</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#boris-fx-mocha-pro">Boris FX Mocha Pro</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#czcionki">Czcionki</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_podstawy.html">Podstawy Obsługi Kainote</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_podstawy.html#edytor-linijki">Edytor linijki</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_podstawy.html#style">Style</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html">Pozycja i Rotacja</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html#pozycja">Pozycja</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html#obrot-w-osi-z">Obrót w osi Z</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html#obrot-w-osiach-x-i-y">Obrót w osiach X i Y</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html">Odtwarzacz Video - Edytor Graficzny</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#przesuwanie-tekstu">Przesuwanie tekstu</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#ruch">Ruch</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#skalowanie">Skalowanie</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#obrot-w-osi-z">Obrót w osi Z</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#obrot-w-osiach-x-i-y">Obrót w osiach X i Y</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#clipy">Clipy</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#rysowanie">Rysowanie</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#zmieniacz-pozycji">Zmieniacz pozycji</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_automation.html">Automatyzacja Zadań w Kainote</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_automation.html#aegisub-motion">Aegisub Motion</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_automation.html#gradient-everything">Gradient Everything</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_automation.html#recalculateor">Recalculateor</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_automation.html#perspective-py">Perspective.py</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html">Proste Animacje</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html#fade">Fade</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html#ruch">Ruch</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html#transformacje">Transformacje</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html">Zaawansowane Animacje - Mocha i Aegisub Motion</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#wykonanie-podstawy-znaku">Wykonanie podstawy znaku</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#konfiguracja-aegisub-motion">Konfiguracja Aegisub-Motion</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#wyciagniecie-wideo-danej-linijki">Wyciągnięcie wideo danej linijki</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#stworzenie-nowego-projektu-w-boris-fx-mocha">Stworzenie nowego projektu w Boris FX Mocha</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#boris-fx-mocha-podstawy">Boris FX Mocha: Podstawy</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#sledzenie-ruchu">Śledzenie ruchu</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#import-do-kainote">Import do Kainote</a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html">Parę słów na koniec</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#poprobuj-na-tych-plikach">Popróbuj na tych plikach:</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#kaguya-odc-1">Kaguya odc. 1</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#citrus-odc-3">Citrus odc. 3</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#references">References</a></div></li>
+</ul>
+</li>
+</ul>
+</div>
+<button class="text-4xl text-gray-800 p-4 bottom-0 hover:text-brand xl:hidden focus:text-brand self-center" data-action="sidebar#close" title="Close navigation menu">
+<span class="sr-only">Close navigation menu</span>
+<svg aria-hidden="true" class="fill-current stroke-current h-6 w-6" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+</aside>
+<main class="px-4 pt-14 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col flex-1 h-full mx-0 md:mx-auto xl:mr-0"><nav aria-label="breadcrumbs" class="print:hidden mt-12 text-sm text-gray-light" role="navigation">
+<a class="text-gray-light text-sm hover:text-gray-dark font-medium focus:text-gray-dark" href="index.html">Typesetting Guide 1a documentation</a>
+<span class="mr-1">/</span><span aria-current="page">Typesetting Guide</span>
+</nav>
+<article class="flex-1" role="main">
+<section id="typesetting-guide">
+<h1>Typesetting Guide<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#typesetting-guide">¶</a></h1>
+<section id="by-gruzin-0911-last-updated-2022-11-23">
+<span id="by-gruzin0911-last-updated-20221123"></span><h2>By: Gruzin#0911, Last Updated: 2022.11.23<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#by-gruzin-0911-last-updated-2022-11-23">¶</a></h2>
+<hr class="docutils"/>
+<section id="programy">
+<h3>Programy<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#programy">¶</a></h3>
+</section>
+</section>
+<section id="kainote">
+<h2>Kainote<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#kainote">¶</a></h2>
+<div class="line-block">
+<div class="line">Kainote jest open-sourceowym forkiem popularnego programu do tworzenia
+napisów, Aegisuba, autorstwa bjakja (Bakura), pozwalającym na bardziej
+zaawansowaną edycje efketów.</div>
+<div class="line">Najnowszą wersję Kainote można pobrać z
+<a class="reference external" href="https://github.com/bjakja/Kainote/releases/latest" rel="nofollow noopener">githuba<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></div>
+<div class="line">Lub <a class="reference external" href="https://drive.google.com/uc?id=1ECqsrLo5d1jPoz-FKvJrS0279YeTKrmS&amp;export=download" rel="nofollow noopener">niestabilny build
+2022.11.11<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></div>
+</div>
+</section>
+<section id="boris-fx-mocha-pro">
+<h2>Boris FX Mocha Pro<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#boris-fx-mocha-pro">¶</a></h2>
+<div class="line-block">
+<div class="line">Mocha jest najlepszym dostępnym obecnie na rynku narzędziem do
+trackowania ruchu.</div>
+<div class="line">Dostępna jest jako:</div>
+</div>
+<ol class="arabic simple">
+<li><p>rozszerzenie do Adobe After Effects</p></li>
+<li><p>osobne oprogramowanie, możesz je pobrać tutaj:
+<strong>UWAGA: PONIŻSZY LINK PROWADZI DO TORRENTA, OPROGRAMOWANIE Z TAKICH
+LINKÓW POWINNO DLA BEZPIECZEŃSTWA POBIERAĆ SIĘ POPRZEZ SERWISY VPN,
+SPRAWDŹ CZY PROGRAM NIE JEST SKAŻONY WIRUSEM PRZED URUCHOMIENIEM</strong>
+<a class="reference external" href="https://1337x.to/torrent/4423707/Boris-FX-Mocha-Pro-2020-5-v7-5-0-Build-1274-Plug-ins-for-Adobe-OFX-CrackzSoft/" rel="nofollow noopener">Boris FX Mocha PRO 2022 na
+1337x.to<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a>
+Z plików znajdujących się w torrencie potrzebna jest ci wersja
+standalone, instrukcja instalacji powinna znajdować się w odpowiednim
+pliku <code class="docutils literal notranslate">read_me.txt</code>.</p></li>
+</ol>
+</section>
+<section id="quicktime-player">
+<h2>QuickTime Player<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#quicktime-player">¶</a></h2>
+<p>Dla pełnej sprawności Mochy wymagany jest też odtwarzacz <a class="reference external" href="https://support.apple.com/kb/dl837?locale=en_US" rel="nofollow noopener">QuickTime
+Player<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+</section>
+<section id="x264-i-ffmpeg">
+<h2>x264 i ffmpeg<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#x264-i-ffmpeg">¶</a></h2>
+<p>Są to dwa największe, open-sourcowe narzędzia do manipulacji wideo, są
+one wykorzystywane przez Kainote’a, a także przez wiele zewnętrznych
+skryptów. Lepszym rozwiązaniem jest x264, jednak warto jest mieć oba na
+komputerze</p>
+</section>
+<section id="windows">
+<h2>Windows<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#windows">¶</a></h2>
+<p>Odpowiednie pliki wykonawcze znajdziesz na stronach producentów:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://ffmpeg.org/download.html" rel="nofollow noopener">ffmpeg<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+<li><p><a class="reference external" href="https://artifacts.videolan.org/x264/release-win64/x264-r3101-b093bbe.exe" rel="nofollow noopener">x264<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+</ul>
+</section>
+<section id="linux">
+<h2>Linux<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#linux">¶</a></h2>
+<p>Na linuxie znajdziesz odpowiednie paczki na repozytorium twojej
+dystrybucji, np.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://aur.archlinux.org/packages/ffmpeg-full" rel="nofollow noopener">ffmpeg<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+<li><p><a class="reference external" href="https://packages.ubuntu.com/search?suite=default&amp;section=all&amp;arch=any&amp;keywords=x264&amp;searchon=names" rel="nofollow noopener">x264<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+</ul>
+<ul class="simple">
+<li><p><a class="reference external" href="https://packages.ubuntu.com/search?keywords=ffmpeg" rel="nofollow noopener">ffmpeg<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+<li><p><a class="reference external" href="https://aur.archlinux.org/packages/lib32-x264" rel="nofollow noopener">x264<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+</ul>
+<p>Powinieneś móc teraz uruchomić oba te narzędzia w konsoli za pomocą
+komend:</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">bash</span></div>
+<div class="highlight"><pre><code>ffmpeg
+x264
+</code></pre></div></div>
+<p>Jeśli któraś z komend nie daje odpowiedzi, być może musisz dodać ścieżkę
+instalacji do <a class="reference external" href="https://www.java.com/pl/download/help/path_pl.html" rel="nofollow noopener">zmiennej
+PATH<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a>.</p>
+<section id="czcionki">
+<h3>Czcionki<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#czcionki">¶</a></h3>
+<div class="line-block">
+<div class="line">Używaną przeze mnie listę czcionek możesz znaleźć na
+<a class="reference external" href="https://mega.nz/folder/o6BUTT6Q#v1bMX7YsiWt_Rg9TLi1WkA" rel="nofollow noopener">mega<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a> .</div>
+<div class="line">W poszukiwaniu nowych czcionek najpraktyczniejsze są:</div>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.1001fonts.com/" rel="nofollow noopener">1001 fonts<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+<li><p><a class="reference external" href="https://www.dafont.com/" rel="nofollow noopener">dafont<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+</ul>
+</section>
+<hr class="docutils"/>
+<section id="kainote-podstawowe-funkcje">
+<h3>Kainote: Podstawowe funkcje<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#kainote-podstawowe-funkcje">¶</a></h3>
+<p>Okno Kainote’a możemy podzielić na 3 segmenty:</p>
+<ol class="arabic simple">
+<li><p>Okno napisów</p></li>
+<li><p>Podgląd wideo</p></li>
+<li><p>Edycja linijki</p></li>
+</ol>
+<p><img alt="Kainote screen" src="https://media.discordapp.net/attachments/783791354374783016/1043316597122662440/image.png?width=1208&amp;height=657"/></p>
+</section>
+</section>
+<section id="edycja-bierzacej-linijki">
+<h2>Edycja bierzącej linijki<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#edycja-bierzacej-linijki">¶</a></h2>
+<p><strong>UWAGA: Jeśli zaznaczysz wiele linijek jednocześnie zmiany dokonają się
+we wszystkich zaznaczonych linijkach, jeśli zaczniesz zmieniać tekst
+zostanie on ustawiony na identyczny w każdej linijce</strong></p>
+<p>Na samej górze segmentu służącego do edycji bierzącej linii widać
+spektogram, a także kontrolki od dźwięku, służy to do projektowania
+karaoke.</p>
+<p><img alt="Kainote: Line Edit" src="https://user-images.githubusercontent.com/61905404/202861820-aa009402-0ade-4b15-9afa-66f022744105.png"/></p>
+<p><strong>Nad polem tekstowym</strong> widać przyciski, są to pokolei:</p>
+<ul class="simple">
+<li><p>Zmiana czcionki:
+Pozwala zmienić typ i rozmiar czcionki <strong>tag jest wstawiany w mijescu
+kursora, uważaj żeby nie zmienić tylko połowy linijki</strong></p></li>
+<li><p>Pogrubienie:
+Wstawia tag <code class="docutils literal notranslate">{\b1}{\b0}</code> wokół zaznaczonego tekstu</p></li>
+<li><p>Kursywa:
+Wstawia tag <code class="docutils literal notranslate">{\i1}{\i0}</code> wokół zaznaczonego tekstu</p></li>
+<li><p>Podkreślenie:
+Wstawia tag <code class="docutils literal notranslate">{\u1}{\u0}</code> wokół zaznaczonego tekstu</p></li>
+<li><p>Przekreś;enie:
+Wstawia tag <code class="docutils literal notranslate">{\s1}{\s0}</code> wokół zaznaczonego tekstu</p></li>
+<li><p>Cztery przyciski od konfiguracji kolorystyczne, wszystkie wstawiają
+tag od<code class="docutils literal notranslate">{\1c}</code> do <code class="docutils literal notranslate">{4c}</code></p>
+<ul>
+<li><p>Kolor pierwszy: Kolor tekstu głównego</p></li>
+<li><p>Kolor drugi: Alternatywny kolor karaoke</p></li>
+<li><p>Kolor trzeci: Kolor obwódki</p></li>
+<li><p>Kolor czwarty: Kolor cienia</p></li>
+</ul>
+</li>
+<li><p>Customowe przyciski:
+Na końcu możesz dodać dowolną liczbę customowych przycisków z tagami,
+które uprzyjemnią ci pracę</p></li>
+</ul>
+<p><strong>Pod polem edycji linjki</strong> znajduje się parę przydatnych parametrów,
+ktore odpowiadają za podstawowe zachowania tekstu, są to od lewej:</p>
+<ul class="simple">
+<li><p>Checkbox określający, czy dane pole jest komentarzem, taką linijkę
+Kainote podświetli na niebiesko, a jej zawartość będzie niewidoczna
+na odcinku</p></li>
+<li><p>Numer warstwy, domyślnie 0, im wyższa wartość tym wyżej ta linijka
+będzie w hierarchi (tzn. linijka na warstwie 1 wyświetli się nad
+linijką na warstwie 0)</p></li>
+<li><p>Dwa pola oznaczające klatkę lub czas (zależnie od wybranego trybu,
+tryb można zmienić za pomocą checkboxa nad edytorem) rozpoczęcia i
+zakończenia linijki</p></li>
+<li><p>Czas trwania linijki</p></li>
+<li><p>Styl zaaplikowany do bieżącej linijki, można go zmienić wybierając
+inny z listy, która otworzy się po kliknięciu w nazwę</p></li>
+<li><p>Przycisk otwierający okno edycji aktualnie wybranego stylu</p></li>
+<li><p>Nazwę postaci mówiącej daną linijkę, to pole często będzie
+nieuzupełnione</p></li>
+<li><p>Trzy wartości marginesów: lewy, prawy i pionowy</p></li>
+<li><p>Pole efektów VSFiltra</p></li>
+</ul>
+<section id="style">
+<h3>Style<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#style">¶</a></h3>
+<p>Style pozwalają na predefiniowanie wyglądu linijek, które można
+aplikować do wielu linijek jednocześnie, bez potrzeby użycia tagów. Jest
+to wygodne, jeśli aplikujemy dany styl do tekstu, trochę mniej
+praktyczne jeśli chodzi o zastosowanie do pojedynczego znaku.</p>
+<div class="line-block">
+<div class="line">Menu styli możesz znaleźć na pasku bocznym pod ikonką: <img alt="Kainote Icon: style.png" src="https://raw.githubusercontent.com/bjakja/Kainote/master/Kainote/Bitmaps/Style.png"/>, po jej kliknięciu powinno otworzyć się okno:</div>
+<div class="line"><img alt="Kainote Module: Style" src="https://media.discordapp.net/attachments/783791354374783016/1043554131417247756/image.png?width=200&amp;height=368"/></div>
+</div>
+<p>Menedżer stylów podzielony jest na dwie części:</p>
+<ul class="simple">
+<li><p>Po pierwsze katalogi, możesz ich utowrzyć dowolną ilość, style
+przechowywane we wszystkich katalogach są dostępne za każdym razem,
+gdy otworzysz program</p></li>
+<li><p>Po drugie style pliku, są to style, które znajdują się w aktualnie
+otwartym pliku i mogą zostać wykorzystane w pracy z nim</p></li>
+</ul>
+<p>Pomiędzy nimi znajdują się trzy przyciski, służą one do przemieszczania
+Styli między katalogiem a plikiem. Po kliknięciu edytuj na dowolnej z
+czcionek powinno pokazać się dodatkowy panel:</p>
+<p><img alt="Kainote Module: Style Edit" src="https://media.discordapp.net/attachments/783791354374783016/1043556408827854878/image.png?width=402&amp;height=368"/></p>
+<p>Jeśli chodzi o dostępne tu pola w większości ich funkcja jest jasna, nie
+będę jej więc tu omawiał, zwrócę uwagę tylko na kilka z nich:</p>
+<ul class="simple">
+<li><p>Kolor “Drugi” to kolor alternatywny dla efektów karaoke</p></li>
+<li><p>Pod każdym z kolorów znajduje się parametr przezroczystości,
+przyjmuje wartości od 0 - brak przezroczystości do 255 - pełna
+przezroczystość</p></li>
+<li><p>Pole odstępy oznacza odstęp między kolejnymi znakami, może przyjmować
+również wartości ujemne</p></li>
+<li><p>Prost. obw. spowoduje, że zamiast obramowania wokół tekstu rysowany
+będzie prostokąt o stałej wysokości</p></li>
+<li><p>Położenie tekstu ustali domyślną pozycję linijek o tym stylu na
+ekranie, dokładnie tak jak pokazuje siatka - <code class="docutils literal notranslate">1</code> oznaczać będzie
+lewy dolny róg, <code class="docutils literal notranslate">5</code> środek, <code class="docutils literal notranslate">9</code> prawy górny róg, itd.</p></li>
+</ul>
+</section>
+<hr class="docutils"/>
+<section id="podstawowe-tagi-ass">
+<h3>Podstawowe tagi ASS<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#podstawowe-tagi-ass">¶</a></h3>
+<section id="w-poszukiwaniu-dodatkowych-informacji-sprawdz-dokumentacje">
+<h4>W poszukiwaniu dodatkowych informacji sprawdź <a class="reference external" href="https://aegi.vmoe.info/docs/3.1/ASS_Tags/" rel="nofollow noopener">dokumentację<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a><a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#w-poszukiwaniu-dodatkowych-informacji-sprawdz-dokumentacje">¶</a></h4>
+<p>Pliki *.ass w swojej strukturze przypominają języki znaczników, każda
+informacja o zmianie względem aktualnego stylu w tekście umieszczana
+jest w klamrach <code class="docutils literal notranslate">{}</code> przed fragmentem tekstu, który chcesz zmienić.</p>
+</section>
+</section>
+<section id="kolory-i-przezroczystosc">
+<h3>Kolory i przezroczystość<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#kolory-i-przezroczystosc">¶</a></h3>
+</section>
+</section>
+<section id="czcionka">
+<h2>Czcionka:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#czcionka">¶</a></h2>
+<p>Do zmiany parametrów czcionki służy kilka tagów:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate">{\fn&lt;str&gt;}</code> zmienia nazwę czcionki na podaną, np.
+<code class="docutils literal notranslate">{\fnArial Black}</code></p></li>
+<li><p><code class="docutils literal notranslate">{\fs&lt;float&gt;}</code> zmienia rozmiar czcionki na podany w parametrze, np.
+<code class="docutils literal notranslate">{\fs90}</code></p></li>
+<li><p><code class="docutils literal notranslate">{\fcsx&lt;float&gt;\fscy&lt;float&gt;}</code> zmieniają skalę (wartość procentowa}
+czcionki odpowiednio w osi x i y, np. {fscx75fscy75}</p></li>
+<li><p><code class="docutils literal notranslate">{\fsp&lt;float&gt;}</code> zmienia odstęp między znakami, może przyjmować
+wartości ujemne, np. <code class="docutils literal notranslate">{\fsp-15}</code> `</p></li>
+</ul>
+</section>
+<section id="obramowka">
+<h2>Obramówka:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#obramowka">¶</a></h2>
+<div class="line-block">
+<div class="line"><code class="docutils literal notranslate">{\board&lt;float&gt;}</code> nastawia grubość ramki wokół tekstu (kolor
+czarny), lub <code class="docutils literal notranslate">{\xbord&lt;float&gt;\ybord&lt;float&gt;}</code> nastawia obramówkę
+niezależżnie w obu kierunkach.</div>
+<div class="line"><img alt="Tekst ramka" src="https://media.discordapp.net/attachments/783791354374783016/1043588847344304138/image.png"/></div>
+</div>
+</section>
+<section id="cien">
+<h2>Cień:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#cien">¶</a></h2>
+<p><code class="docutils literal notranslate">{\shad&lt;float&gt;}</code> nastawia odległość cienia rzucanego przez tekst, lub
+<code class="docutils literal notranslate">{\xshad&lt;float&gt;\yshad&lt;float&gt;}</code> robi to samo, niezależnie w obu
+kierunkach.</p>
+</section>
+<section id="rozmycie">
+<h2>Rozmycie<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#rozmycie">¶</a></h2>
+<p>Rozmycie jest efektem, który działa tylko na jedną warstwę tekstu, tzn.:</p>
+<ul class="simple">
+<li><p>Jeśli tekst nie ma obramówki rozmyje tekst</p></li>
+<li><p>Jeśli w tekście znajduje się obramówka rozmyta zostanie tylko i
+wyłącznie ona Pozwala to na tworzenie ciekawych efektów, jednak warto
+jest mieć to z tyłu głowy projektując znaki.
+Efekt rozmycia posiada dwa algorytmy</p></li>
+<li><p><code class="docutils literal notranslate">{\blur&lt;float&gt;}</code> Algorytm barzdiej wymagający, jednak efekty
+wygenerowane za jego pomocą wyglądają lepiej</p></li>
+<li><p><code class="docutils literal notranslate">{\be&lt;int&gt;}</code> Algorytm słabszy, wygląda gorzej przy wysokich
+wartościach, przyjmuje jako parametr jedynie liczby całkowite Przy
+tworzeniu znaków warto nałożyć nawet słaby efekt, np. <code class="docutils literal notranslate">{\blur1}</code>,
+dzięki temu znak będzie lepiej wtapiał się w nagranie</p></li>
+</ul>
+</section>
+<section id="pozycja-wyjsciowa">
+<h2>Pozycja wyjściowa<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#pozycja-wyjsciowa">¶</a></h2>
+<div class="line-block">
+<div class="line">Pozycja wyjściowa odpowiada on za dpmyślną pozycję znaku i jego
+zawijanie (jeśli zajmuje on kilka linijek). Parametr można ustawić za
+pomocą tagu <code class="docutils literal notranslate">{\an&lt;1-9&gt;}</code>, gdzie liczba będzie oznaczała pozycję.
+Wartości te ustawiają się tak jak liczby na numpadzie, a więc <code class="docutils literal notranslate">1</code>
+oznaczać będzie lewy dolny róg, <code class="docutils literal notranslate">5</code> środek, <code class="docutils literal notranslate">9</code> prawy górny róg,
+itd.</div>
+<div class="line"><img alt="numpad" src="https://user-images.githubusercontent.com/61905404/202856961-faab6198-1696-427f-85cd-3ab2e919fa00.png"/></div>
+</div>
+<hr class="docutils"/>
+<section id="edycja-pozycji-i-obrotow">
+<h3>Edycja pozycji i obrotów<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#edycja-pozycji-i-obrotow">¶</a></h3>
+<p>Większość efektów dot. pozycji, będzie nakładach z poziomu podglądu
+wideo, pozwala on nam na przemieszczanie, obracanie, etc. znaku na
+nagraniu w czasie rzeczywistym (i nie wymaga bawienia się wartościami
+ręcznie)</p>
+<p><img alt="Kainote Module: Video" src="https://user-images.githubusercontent.com/61905404/202861945-84d1fece-db6c-4244-9e12-eb12f4e36dc2.png"/></p>
+<p>Najważniejsze służące do tego kontrolki znajdują się bezpośrednio pod
+odtwarzaczem, od lewej:</p>
+</section>
+</section>
+<section id="przesuwanie-tekstu">
+<h2>Przesuwanie tekstu<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#przesuwanie-tekstu">¶</a></h2>
+<p>Służy do przesuwania tekstu na obrazie, wpływa jedynie na znacznik
+pozycji <code class="docutils literal notranslate">{\pos(&lt;x&gt;,&lt;y&gt;)}</code>, jeśli wcześniej linijka zawierała znacznik
+ruchu <code class="docutils literal notranslate">{\move()}</code> zostanie on zastąpiony, znacznik zostanie wstawiony
+na początku linijki</p>
+</section>
+<section id="ruch">
+<h2>Ruch<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#ruch">¶</a></h2>
+<p>Więcej na ten temat w sekcji <strong>Proste animacje</strong></p>
+</section>
+<section id="skalowanie">
+<h2>Skalowanie<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#skalowanie">¶</a></h2>
+<p>Pozwala na skalowanie napisów (<code class="docutils literal notranslate">{\fscx&lt;float&gt;\fscy&lt;float&gt;}</code>), znacznik
+zostanie wstawiony na początku linijki</p>
+</section>
+<section id="obrot-w-osi-z">
+<h2>Obrót w osi Z<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#obrot-w-osi-z">¶</a></h2>
+<div class="line-block">
+<div class="line">Obrót w osi Z jest obrotem w płaszczyźnie ekranu <code class="docutils literal notranslate">{\frz&lt;float&gt;}</code>,
+może przyjmować zarówno wartości dodatnie jak i ujemne.</div>
+<div class="line"><img alt="rotation Z example" src="https://user-images.githubusercontent.com/61905404/202862421-32c86265-0a9d-4226-b0da-54756a41f4b9.png"/></div>
+<div class="line">Dodatkowo w trybie tym możemy edytować tzw. <code class="docutils literal notranslate">origin</code>, jest on
+oznaczony przez czerwony krzyżyk widoczny na środku zrzutu ekranu.
+Przeciągnięcie go spowoduje zmianę punktu, wokół którego dokonywany
+jest obrót.</div>
+<div class="line"><strong>UWAGA: Przesunięcie origina będzie, często w sposób nieprzewidywalny
+wpływać na napisy w ruchu</strong></div>
+</div>
+</section>
+<section id="obrot-w-osiach-x-i-y">
+<h2>Obrót w osiach X i Y<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#obrot-w-osiach-x-i-y">¶</a></h2>
+<div class="line-block">
+<div class="line">Ta funkcja pozwala nam na obrócenie tekstu w dwóch pozostałych
+płaszczyznach, dzięki czemu otrzymamy efekt pochylenia, widoczna
+siatka jest poglądem płaszczyzny, na której aktualnie znajduje się
+tekst. Zmiany w osi X dokonuje się przytrzymaniem PPM, zmiany w osi Y
+przytrzymaniem LPM.</div>
+<div class="line">W tym trybie również można znaleźć origin, oznaczony czerwonym
+krzyżykiem.</div>
+<div class="line"><img alt="rotation X Y example" src="https://user-images.githubusercontent.com/61905404/202862624-8e0c3307-1ad2-4f52-82ca-a128d1d26c8e.png"/></div>
+</div>
+<section id="clipy">
+<h3>Clipy<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#clipy">¶</a></h3>
+<p>Następne dwa narzędzia to clipy, pierwsze z nich prostokątne, drugie
+wektorowe, obydwa generują tag <code class="docutils literal notranslate">{\clip(&lt;shape&gt;)}</code>. Po stworzeniu clipa
+widoczny będzie tylko tekst wewnątrz zaznaczonego kształtu <img alt="clip example" src="https://media.discordapp.net/attachments/783791354374783016/1043572977062645800/image.png"/></p>
+<p>Efekt clipa można też odwrócić dodając przed tagiem <code class="docutils literal notranslate">i</code>:
+<code class="docutils literal notranslate">{\iclip(&lt;shape&gt;)}</code>, w ten sposób będzie widać jedynie tekst, który
+nie znajduje się w zarysowanym kształcie.</p>
+</section>
+<section id="rysowanie">
+<h3>Rysowanie<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#rysowanie">¶</a></h3>
+<p>Rysowanie pozwala na stworzenie rysunku wektorowego, zostanie on
+wstawiony zamiast tekstu w danej linijce i przejmie wszystkie jego
+efekty, tj. kolor, obramówkę, obrót itd., rysunek również może być
+przycięty clipem <img alt="shape example" src="https://media.discordapp.net/attachments/783791354374783016/1043575246009147502/image.png"/></p>
+<div class="line-block">
+<div class="line">Dodatkowo po wybraniu narzędzia rysowania pojawią się nowe opcje</div>
+<div class="line"><img alt="shape options" src="https://user-images.githubusercontent.com/61905404/202863282-db311b1c-1622-4e14-bf64-8ba4ba3bff11.png"/></div>
+<div class="line">Mamy tu:</div>
+</div>
+<ul class="simple">
+<li><p>Narzędzie do przesuwania punktów (chociaż dowolny punkt możesz złapać
+i przesunąć w każdej chwilii innymi narzędziami)</p></li>
+<li><p>Narzędzie rysowania linii</p></li>
+<li><p>Narzędzie rysowania krzywych Beziera
+Pozwala na narysowanie dokładnych krzywych, zaznaczasz punkt
+początkowy i końcowy krzywej, a następnie dwoma dodatkowymi okrągłymi
+punkcikami regulujesz krzywiznę
+<img alt="bezier curve example" src="https://user-images.githubusercontent.com/61905404/202863452-a1e2eba4-b958-40fc-98b7-d64cd0643a6b.png"/></p></li>
+<li><p>Narzędzie rysowania krzywych B-sklejanyych
+Działa na podobnej zasadzie co krzywa Beizera, z tym wyjątkiem, że
+pozwala na stworzenie większej ilości punktów</p></li>
+<li><p>Tworzenie punktów niezależnych od aktualnego kształtu</p></li>
+<li><p>Usuwanie punktów</p></li>
+</ul>
+</section>
+</section>
+<section id="zmieniacz-pozycji">
+<h2>Zmieniacz pozycji<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#zmieniacz-pozycji">¶</a></h2>
+<div class="line-block">
+<div class="line">Zmieniacz pozycji jest nieco bardziej zaawansowaną wersją narzędzia
+przesuwania, po prawej stronie znajdziesz nowe opcje: pozwolą ci one
+wybrać jakie elementy linijki chcesz przesuwać, możesz wybrać wiele na
+raz.</div>
+<div class="line">Narzędzie to jest wygodne przy edycji bardziej zaawansowanych znaków,
+ponieważ pozwala przesuwać takie elementy jak clipy, czy punkty
+początkowe i/lub końcowe ruchu, na co nie pozwala standardowe
+narzędzie.</div>
+</div>
+<hr class="docutils"/>
+<section id="kainote-automatyzacja">
+<h3>Kainote: Automatyzacja<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#kainote-automatyzacja">¶</a></h3>
+<p>Kainote ma preinstalowanych parę użytecznych skryptów do autoamtyzacji,
+znajdziesz je pod rozwijanym menu na pasku.</p>
+</section>
+</section>
+<section id="aegisub-motion">
+<h2>Aegisub Motion<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#aegisub-motion">¶</a></h2>
+<p>Ten skrypt służy do generowania zaawansowanych animacji, więcej na ten
+temat w sekcji <strong>Zaawansowane animacje</strong></p>
+</section>
+<section id="gradient-everything">
+<h2>Gradient Everything<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#gradient-everything">¶</a></h2>
+<div class="line-block">
+<div class="line">Żeby wygenerować gradient należy stworzyć dwie kopie tej samej
+linijki: pierwszą z kolorem początku gradiientu (górnym, albo lewym),
+drugą z kolorem końcowym (dolnym, albo prawym).</div>
+<div class="line">Na przykład:</div>
+</div>
+<blockquote>
+<div><div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">default</span></div>
+<div class="highlight"><pre><code><span class="n">Dialogue</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">33.54</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">35.50</span><span class="p">,</span><span class="n">On</span> <span class="n">Top</span><span class="p">,,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,,{</span>\<span class="n">pos</span><span class="p">(</span><span class="mf">1018.812</span><span class="p">,</span><span class="mf">841.206</span><span class="p">)</span>\<span class="n">blur1</span>\<span class="mi">3</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H000000</span><span class="o">&amp;&gt;</span> \<span class="n">fs105</span>\<span class="n">bord5</span>\<span class="n">shad5</span>\<span class="n">fnCabold</span> <span class="n">Comic</span>\<span class="mi">1</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H790091</span><span class="o">&amp;</span><span class="p">}</span><span class="o">|</span> <span class="n">Twice</span>
+<span class="n">Dialogue</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">33.54</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">35.50</span><span class="p">,</span><span class="n">On</span> <span class="n">Top</span><span class="p">,,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,,{</span>\<span class="n">pos</span><span class="p">(</span><span class="mf">1018.812</span><span class="p">,</span><span class="mf">841.206</span><span class="p">)</span>\<span class="n">blur1</span>\<span class="mi">3</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H000000</span><span class="o">&amp;</span>\<span class="n">fs105</span>\<span class="n">bord5</span>\<span class="n">shad5</span>\<span class="n">fnCabold</span> <span class="n">Comic</span>\<span class="mi">1</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H56083E</span><span class="o">&amp;</span><span class="p">}</span><span class="o">|</span> <span class="n">Twice</span>
+</code></pre></div></div>
+</div></blockquote>
+<div class="line-block">
+<div class="line">Opcjonalnie, możesz stworzyć prostokątny clip wokół jednej z linijek,
+wtedy gradient zostanie wygenerowany jedynie wewnątrz clipu, w
+przeciwnym wypadku ramka zostanie wygenerowana automatycznie przez
+skrypt.</div>
+<div class="line">Z menu wybierz
+<code class="docutils literal notranslate">Automatyzacja&gt;Gradient Everything&gt;Gradient Everything/Gradient Everything</code>,
+pojawi się nowe okno: <img alt="Gradient Everything" src="https://user-images.githubusercontent.com/61905404/202865975-acf4b641-3b6e-45cd-8bb4-d9ea19c52874.png"/></div>
+<div class="line">W oknie możesz wybrać tagi, które zostaną poddane efektowi gradientu,
+parametr Obok parametru <code class="docutils literal notranslate">pixels per strip</code> jest kierunek, w którym
+poruszać będzie się gradient.</div>
+<div class="line">Parametr <code class="docutils literal notranslate">Acceleration</code> zmienia sposób w jaki wygenerowany zostanie
+gradient:</div>
+</div>
+<ul class="simple">
+<li><p>&gt; 1 zaczyna się szybko, kończy powoli</p></li>
+<li><p>&lt; 1 zaczyna się powoli, kończy szybko</p></li>
+</ul>
+<p>Na samym dole okna dialogowego możesz też znaleźć opcję zapisania sobie
+przygotowanego gradientu do wielokrotnego użycia.</p>
+<p>Efekt wygenerowania gradientu na kolorze z powyższych linijek wygląda
+tak: <img alt="Gradient example" src="https://user-images.githubusercontent.com/61905404/202866234-2beb7536-2f10-4248-80d5-203028b576a0.png"/></p>
+</section>
+<section id="colorize">
+<h2>Colorize<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#colorize">¶</a></h2>
+<p>[Jeszcze zrobię to jutro]</p>
+</section>
+<section id="recalculateor">
+<h2>Recalculateor<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#recalculateor">¶</a></h2>
+<p>Recalculator jest prostym sposobem na zmodyfikowanie pojedynczego tagu w
+wielu linijkach na raz <img alt="Recalculator example" src="https://user-images.githubusercontent.com/61905404/202866326-8c5dddcf-d5c6-4468-9384-79002fd4cc2a.png"/></p>
+<div class="line-block">
+<div class="line">Zmodyfikuj jeden z dwóch głownych parametrów - zmianę procentową, albo
+zmianę o wartość, wybierz tagi, które chcesz zmienić.</div>
+<div class="line">W przedostatniej linijce znajdują się modyfikatory, możesz dzięki temu
+zmieniać wartość o więcej z każdą kolejną linijką, np.
+<code class="docutils literal notranslate">15&gt;30&gt;45&gt;60&gt;75</code> etc.</div>
+<div class="line">Jak widać główne dwie funkcje, z których będziesz korzystać to
+mnożenie/dodawanie, jeśli chciałbyś odjąć wystarczy ustawaić ujemną
+wartość w polu tekstowym</div>
+</div>
+</section>
+<section id="perspective-py">
+<span id="perspectivepy"></span><h2>Perspective.py<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#perspective-py">¶</a></h2>
+<div class="line-block">
+<div class="line">Source: <a class="reference external" href="https://github.com/TypesettingTools/Perspective/blob/master/perspective.py" rel="nofollow noopener">Script by Zeght on
+Github<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a>
+<strong>UWAGA: Perspektywa wygenerowana w ten sposób zawiera tag
+``{org()}`` z tego powodu nie będzie działała w ruchu.</strong></div>
+<div class="line">Jest to narzędzie CLI napisane w pythonie, służące do wygenerowania
+tagów rotacji i origin, które będą odpowiadać rotacji obiektu na
+ekranie, sposób wygenerowania jest prosty:</div>
+</div>
+<ol class="arabic">
+<li><p>Za pomocą narzędzia clipu wektorowego narysuj obrys czegoś, co w
+przeszłości było prostokątem od lewego górnego rogu, zgodnie z ruchem
+wskazówek zegara <img alt="Perspective.pt step 1" src="https://user-images.githubusercontent.com/61905404/202866844-2de8e767-7aa6-40d6-b4dd-bf9a3b3102dd.png"/></p></li>
+<li><p>Przeklej zawartość tagu <code class="docutils literal notranslate">{\clip()}</code> do konsoli razem z komendą, np.
+.. code:: ps</p>
+<blockquote>
+<div><p>python3 perspective.py “m 845 78 l 1233 164 1213 218 825 131”</p>
+</div></blockquote>
+</li>
+<li><p>Konsola odpowie kilkoma możliwymi perspektywami, wybierz najlepszą i
+przeklej na początek linijki, gotowe!
+.. code:: ps</p>
+<blockquote>
+<div><p>Transforms near center of tetragon:                                                                                     Ratio=6.766732                                                                                                          org(563.6, 3133.9)fry-0.63frx0.51frz-19.96                                                                                                                                                                                                  Transforms with target ratio:                                                                                           Ratio=7.015400                                                                                                          org(1373.4, 3139.9)fry-0.61frx0.50frz-19.32</p>
+</div></blockquote>
+</li>
+</ol>
+<hr class="docutils"/>
+<section id="proste-animacje">
+<h3>Proste animacje<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#proste-animacje">¶</a></h3>
+<p>Do prowadzenia prostych animacji przyda ci się różnica między bierzącą
+klatką, a czasami rozpoczęcia i zakończenia linijki, możesz je znaleźć
+obok kontrolek odtwarzacza, razem z aktualną minutą i aktualnym numerem
+klatki.</p>
+<p><img alt="Timestamps" src="https://user-images.githubusercontent.com/61905404/202864156-8a62dcfe-925b-4971-827c-59ce6521d2d7.png"/></p>
+</section>
+</section>
+<section id="fade">
+<h2>Fade<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#fade">¶</a></h2>
+<div class="line-block">
+<div class="line">Fade jest prostym efektem wejścia/wyjścia, jego podstawowa forma
+wygląda tak <code class="docutils literal notranslate">{\fade(&lt;int&gt;,&lt;int&gt;)}</code>, gdzie pierwszy parametr jest
+wyrażonym w milisekundach czasem przez który linijka będzie się
+pojawiać (od alphy 255 do 0), a drugi to czas w milisekundach, przez
+który linijka będzie znikać (od 0, do 255).</div>
+<div class="line">Druga forma taga pozwala na pełną kontrolę nad czasami w jakich
+wykonuje się efekt, a także nad stopniami przezroczystości:</div>
+<div class="line"><code class="docutils literal notranslate">\fade(&lt;a1&gt;,&lt;a2&gt;,&lt;a3&gt;,&lt;t1&gt;,&lt;t2&gt;,&lt;t3&gt;,&lt;t4&gt;)</code>, gdzie:</div>
+</div>
+<ul class="simple">
+<li><p>tekst ma przezroczystość <code class="docutils literal notranslate">a1</code> aż do momentu <code class="docutils literal notranslate">t1</code></p></li>
+<li><p>między <code class="docutils literal notranslate">t1</code> a <code class="docutils literal notranslate">t2</code> przezroczystość przechodzi z <code class="docutils literal notranslate">a1</code> do <code class="docutils literal notranslate">a2</code></p></li>
+<li><p>między <code class="docutils literal notranslate">t2</code> a <code class="docutils literal notranslate">t3</code> przezroczystość ma stałą wartość <code class="docutils literal notranslate">a2</code></p></li>
+<li><p>między <code class="docutils literal notranslate">t3</code> a <code class="docutils literal notranslate">t4</code> przezroczystość przechodzi z <code class="docutils literal notranslate">a2</code> do <code class="docutils literal notranslate">a3</code></p></li>
+<li><p>po momencie <code class="docutils literal notranslate">t4</code> tekst ma przezroczystość <code class="docutils literal notranslate">a3</code></p></li>
+</ul>
+</section>
+<section id="ruch-1">
+<span id="id1"></span><h2>Ruch<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#ruch-1">¶</a></h2>
+<p>W Kainote wbudowane jest narzędzie ruchu, jest to pozycja którą
+pominęliśmy wcześniej przy edytorze wideo: <img alt="movement example" src="https://media.discordapp.net/attachments/783791354374783016/1043579643162267728/image.png"/></p>
+<ul class="simple">
+<li><p>Kwadrat oznacza pozycję początkową</p></li>
+<li><p>Kółko oznacza pozycję końcową tekstu</p></li>
+<li><p>krzyżyk oznacza pozycję w danej klatce</p></li>
+</ul>
+<p>Po zaczęciu rysowania ruchu Kainote wstawi do twojego znaku tag
+<code class="docutils literal notranslate">{\move(&lt;x1&gt;,&lt;y1&gt;,&lt;x2&gt;,&lt;y2&gt;,&lt;t1&gt;,&lt;t2&gt;)}</code>, często nie będziesz chcieć,
+aby animacja trwała całą linijkę, parametry <code class="docutils literal notranslate">&lt;t1&gt;</code> i <code class="docutils literal notranslate">&lt;t2&gt;</code>
+odpowiadają czasom rozpoczęcia i zakończenia ruchu.</p>
+</section>
+<section id="transformacje">
+<h2>Transformacje<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#transformacje">¶</a></h2>
+<div class="line-block">
+<div class="line">Ponad dwa przedstawione powyżej specjalne przypadki, często zdarzy
+się, że będziesz chciał edytować rozmycie, rozmiar czcionki, kolor,
+czy inny z wielu dostępnych parametrów. Można to zrobić w prosty
+sposób z użyciem tagu transformacji: <code class="docutils literal notranslate">{\t(&lt;t1&gt;,&lt;t2&gt;,&lt;tag&gt;)}</code>.</div>
+<div class="line">Ten tag pozwala na utowrzenie prostych przejść między stanami tagów,
+weźmie on stan tagu sprzed momentu <code class="docutils literal notranslate">&lt;t1&gt;</code>, a następnie między
+<code class="docutils literal notranslate">&lt;t1&gt;</code> a <code class="docutils literal notranslate">&lt;t2&gt;</code> wygeneruje dynamiczne przejście do stanu
+<code class="docutils literal notranslate">&lt;tag&gt;</code>, np. <img alt="Transform example" src="https://user-images.githubusercontent.com/61905404/202864700-ab93880d-212e-4640-a63b-a5d4917e5315.gif"/></div>
+</div>
+<blockquote>
+<div><p>Sekwencja tagów <code class="docutils literal notranslate">{\blur10\t(0,147,\blur0)}</code></p>
+</div></blockquote>
+<hr class="docutils"/>
+<section id="zaawansowane-animacje">
+<h3>Zaawansowane animacje<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#zaawansowane-animacje">¶</a></h3>
+<p>Do tego segmentu przydadzą ci się dodatkowo: <a class="reference external" href="https://nyaa.si/view/1511966" rel="nofollow noopener">Wideo do Odcinka 1
+Kaguya-Sama Love is War: Ultra Romantic
+(nyaa.si)<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+<p>Większość zaawansowanych animacji, które wykonujemy w typesettingu
+(wyjątek: efekty karaoke) opiera się o nieregularne zmiany pozycji,
+rotacji, obrazu, czy perspektywy. Są to po prostu efekty, które ręcznie
+jest ciężko wykonać, lub wymagałoby to poświęcenia nadmiernej ilości
+czasu np.:</p>
+<p><img alt="Kaguya-sama Love is War: Ultra Romantic E03 Klatki 11665-11766" src="https://user-images.githubusercontent.com/61905404/203578018-8a49d46b-60d3-4548-8639-9148a85aadf4.gif"/></p>
+<blockquote>
+<div><p>Kaguya-Sama, S03E01, znak mówi <code class="docutils literal notranslate">Co porabisz?</code></p>
+</div></blockquote>
+</section>
+</section>
+<section id="wykonanie-podstawy-znaku">
+<h2>Wykonanie podstawy znaku<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#wykonanie-podstawy-znaku">¶</a></h2>
+<p>Na samym początku musimy wykonać znak dla jednej z klatek - tak, by było
+potem co wprawić w ruch. W nowych wersjach Aegisub-Motion nie ma
+znaczenia, która klatka to będzie, jednak dobrze jest by była to
+pierwsza lub ostatnia, w ten sposób nie powinno być problemu z
+przypadkowym przesunięciem znaku w późniejszych etapach. Pamiętaj też,
+aby sprawdzić timing, najlepiej w trybie podglądu klatek (przełącznik
+znajdziesz nad polem edycji linijki), pierwsza i ostatnia klatka powinny
+pokrywać się z pierwszą i ostatnią klatką obecności znaku na ekranie,
+<strong>a nie kaltkę przed/po</strong>. Nasz znak może wyglądać np. tak:</p>
+<p><img alt="Znak ruchomy Mocha, Step 1" src="https://user-images.githubusercontent.com/61905404/203579191-1ea6161b-3146-4bc7-9ca3-a80a68918e58.png"/></p>
+</section>
+<section id="konfiguracja-aegisub-motion">
+<h2>Konfiguracja Aegisub-Motion<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#konfiguracja-aegisub-motion">¶</a></h2>
+<p>Jeśli robisz to po raz pierwszy prawdopodobnie będziesz musiał
+skonfigurować od nowa Aegisub-Motion:</p>
+<ol class="arabic simple">
+<li><p>Znajdź ścieżkę, w której znajduje się twój plik <code class="docutils literal notranslate">x264.exe</code>, u mnie
+jest to: <code class="docutils literal notranslate">F:\Kainote\Redist\x264-r3098-7628a56.exe</code></p></li>
+<li><p>Otwórz okno konfiguracyjne Aegisub-Motion, w najnowszej wersji
+skryptu jest ono dostępne na pasku:
+<code class="docutils literal notranslate">Automatyzacja &gt; Aegisub-Motion &gt; Aegisub-Motion/Trim Settings</code>.
+Powinieneś widzieć coś takeigo:
+<img alt="Kainote: Aegisub-Motion Settings Module" src="https://user-images.githubusercontent.com/61905404/203584964-75793756-04df-4e3c-a2f3-edbd085bf353.png"/></p></li>
+<li><p>W podświetlonej linijce wklej ścieżkę do <code class="docutils literal notranslate">x264.exe</code> i kliknij
+<code class="docutils literal notranslate">Save</code>. Nie zmieniaj nic innego!</p></li>
+</ol>
+</section>
+<section id="wyciagniecie-wideo-danej-linijki">
+<h2>Wyciągnięcie wideo danej linijki<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#wyciagniecie-wideo-danej-linijki">¶</a></h2>
+<p>Następnym krokiem będzie wyciągnięcie wideo, które następnie
+zaimportujemy do Mochy. Zrobienie tego jest proste, dzięki narzędziom
+automatyzacji wystarczy parę kliknięć na pasku:
+<code class="docutils literal notranslate">Automatyzacja &gt; Aegisub-Motion &gt; Aegisub-Motion/Trim</code>, otworzy ci się
+konsolka i wideo przytnie się samo. Po zakończeniu działania skryptu
+przycięty fragment powinieneś znaleźć w tym samym miejscu co oryginalne
+wideo.</p>
+</section>
+<section id="stworzenie-nowego-projektu-w-boris-fx-mocha">
+<h2>Stworzenie nowego projektu w Boris FX Mocha<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#stworzenie-nowego-projektu-w-boris-fx-mocha">¶</a></h2>
+<div class="line-block">
+<div class="line">Następnie przeniesiemy się do Mochy, po otwarciu programu z paska
+wybierz: <code class="docutils literal notranslate">File &gt; New Project</code></div>
+<div class="line">Otworzy się nowe okno:</div>
+<div class="line"><img alt="Boris FX Mocha Pro: New Project Module" src="https://user-images.githubusercontent.com/61905404/203586396-b0073388-f1ab-49de-89b7-f878279af723.png"/></div>
+<div class="line">Klikamy <code class="docutils literal notranslate">Choose...</code> i wybieramy przycięty przed chwilą fragment,
+pozostałe parametry Mocha zaczyta samoczynnie</div>
+</div>
+</section>
+<section id="boris-fx-mocha-podstawy">
+<h2>Boris FX Mocha: Podstawy<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#boris-fx-mocha-podstawy">¶</a></h2>
+<p>Przed sobą powinieneś mieć teraz coś takiego: <img alt="Boris FX Mocha Pro" src="https://user-images.githubusercontent.com/61905404/203587034-105ed9d7-2a68-491f-974e-de005cc26bec.png"/></p>
+<p>Kontrolki, które widzisz u samej góry służą do głównie do rysowania
+obszarów śledzenia, mamy więc tu od prawej:</p>
+<p><img alt="Boris FX Mocha Pro Controls" src="https://user-images.githubusercontent.com/61905404/203587107-8377a071-f902-44b4-baea-63362e6cd5af.png"/></p>
+<ol class="arabic simple">
+<li><p>Szybki zapis</p></li>
+<li><p>Wskaźnik</p></li>
+<li><p>Narzędzie to pozwala na dodanie punktu na już skończonym obszarze w
+miejscu myszki</p></li>
+<li><p>Przesuwanie widoku</p></li>
+<li><p>Lupa</p></li>
+<li><p>Narzędzie rysowania prostych</p></li>
+<li><p>Narzędzie magnetyczne - będzie rysowało obszar śledzenia od punktu
+do punktu po krawędziach obrazu, podobnie do “różdżki” z
+photoshopa/GIMPa</p></li>
+<li><p>Tworzy zaznaczenie na podstawie zamalowanego obszaru</p></li>
+<li><p>Rysuje obszar w kształcie prostokąta</p></li>
+<li><p>Rysuje obszar w kształcie okręgu/elipsy</p></li>
+<li><p>Następne 3 służą do bardziej zaawansowanych operacji, będą nam
+zbędne</p></li>
+<li><p>Lista dostępnych konfiguracji widoku, zazwyczaj są one nieprzydatne,
+jednak zdażają się znaki zachowujące się na tyle dziwnie, że będzie
+potrzebny np. classic, umożliwia on możliwosć śledzenia siatki.</p></li>
+</ol>
+<p><img alt="Boris FX Mocha Pro: Layers Module" src="https://media.discordapp.net/attachments/783791354374783016/1045011408787607682/image.png?width=215&amp;height=676"/></p>
+<div class="line-block">
+<div class="line">W tym segmencie znajdują się kontrolki od śledzenia.</div>
+<div class="line">W pustym polu u góry będą pojawiać się rysowane do śledzenia kształty.</div>
+<div class="line">Pięć przycisków poniżej służy do ograniczeniu możliwości śledzenia -
+zazwyczaj chcemy śledzić ruch jedynie w tych parametrach, w których
+potrzeba, inaczej może dojść do błędów.</div>
+<div class="line">Poniżej mamy kontrolki od uruchamiania śledzenia - do tyłu, stop i w
+przód.</div>
+<div class="line">Na samym dole znajdują się dwa przyciski, pierwszy z nich posłuży
+przeniesieniu danych do napisów.</div>
+</div>
+<p><img alt="Boris FX Mocha Pro: Player Module" src="https://user-images.githubusercontent.com/61905404/203587211-3d376600-b440-4f8c-9c88-bbb25d0976bb.png"/></p>
+<div class="line-block">
+<div class="line">Ostatnim segmentem jest sam odtwarzacz, nie ma tu nic specjalnego -
+pod odtwarzaczem widać oś czasu z podziałem na klatki, a pod nią
+kotrolki do odtwarzania.</div>
+<div class="line">Tym co nas będzie najbardziej tu interesowało to klatki kluczowe:
+Niebieski pasek na osi czasu oznacza klatkę, w której aktualnie
+znajduje się wideo, jeśli zaczniemy rysować obszar śledzenia ta klatka
+zostanie oznaczona na zielono:</div>
+<div class="line"><img alt="KeyFrame" src="https://user-images.githubusercontent.com/61905404/203599258-92b7538b-78dd-4f03-91c7-33cbdc65658a.png"/></div>
+<div class="line">Klatki kluczowe pozostaną niezmienione w trakcie śledzenia, a punkty w
+pozostałch klatkach będą dążyć do pozycji zaznaczonych w klatkach
+kluczowych.</div>
+</div>
+</section>
+<section id="sledzenie-ruchu">
+<h2>Śledzenie ruchu<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#sledzenie-ruchu">¶</a></h2>
+<p>Narysujmy teraz obwódkę wokół znkau, który zamierzamy śledzić, np. tak:</p>
+<p><img alt="Boris FX Mocha Pro: Tracking KeyFrame 1" src="https://user-images.githubusercontent.com/61905404/203600062-b0d52307-a34b-42a4-b524-3aca598a8fbe.png"/></p>
+<p>I po lewej stronie uruchommy tracking (wcześniej upewnij się, że
+zaznaczone są jedynie potrzebne ci parametry, w tym wypadku: ruch).</p>
+<p><img alt="Boris FX Mocha Pro: Tracking Animation" src="https://media.discordapp.net/attachments/783791354374783016/1045016499368247306/Kguya_01_01.gif?width=1206&amp;height=676"/></p>
+<p>Jeśli twoim zdaniem wyśledzony ruch wygląda dobrze, możesz przejsć do
+następnego kroku, w przeciwnym razie poeksperymentuj z zaznaczeniem:
+czasami dobrze jest złapać inny znak, niż ten który faktycznie chcemy
+wyśledzić, albo złapać tylko jego część, na przykład pojedyncze kanji.</p>
+<section id="import-do-kainote">
+<h3>Import do Kainote<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#import-do-kainote">¶</a></h3>
+<p>Aby wyeksportować przygotowany przez Mochę ruch wciskamy wcześniej
+wspomniany przeze mnie przycisk na samym dole panelu z kontorlkami do
+śledzenia <code class="docutils literal notranslate">Export Tracking Data</code> jest napisane na przycisku (jeśli
+jest on nieaktywny sprawdź, czy na pewno masz wybraną którąś z warstw).
+Po jego wciśnięciu wyskakuje nowe okno: <img alt="Boris FX Mocha Pro: Export Tracking Data Dialogue" src="https://media.discordapp.net/attachments/783791354374783016/1045017879222956092/image.png"/></p>
+<div class="line-block">
+<div class="line">Interesujący nas format jest tym samym, który otwiera się domyślnie:</div>
+<div class="line"><code class="docutils literal notranslate">After Effects Transform Data [position, scale and rotation] (*.txt)</code></div>
+<div class="line">Wystarczy nam skopiować go do schowka, nie potrzebujemy mieć tego
+nigdzie zachowanego.</div>
+</div>
+<div class="line-block">
+<div class="line">Następnie w Kainote zaznaczamy linijkę, bądź linijki, do których
+chcemy zaaplikować nasz efekt.</div>
+<div class="line"><strong>UWAGA: Przypilnuje, żeby mieć tę samą klatkę, co przy tworzeniu
+znaku, w przeciwnym razie cały znak się rozjedzie!</strong> I z menu
+automatyzacji tym razem wybieramy Aegisub-Motion/Apply:</div>
+<div class="line"><code class="docutils literal notranslate">Automatyzacja &gt; Aegisub-Motion &gt; Aegisub-Motion/Apply</code></div>
+<div class="line">Pojawi się nowe okienko:</div>
+<div class="line"><img alt="Kainote Automation: Aegisub-Motion/Apply" src="https://media.discordapp.net/attachments/783791354374783016/1045019941469950146/image.png"/></div>
+</div>
+<p>W polu tekstowym automatycznie wklejony zostanie wzorzec ruchu, który
+przed chwilą skopiowaliśmy z Mochy. W checkboxach możemy też wybrać do
+jakich parametrów zostaną zaaplikowane zmiany:</p>
+<ul class="simple">
+<li><p>Współrzędne x, y całości znaku, zaznaczenie <code class="docutils literal notranslate">Absolute</code> spowoduje,
+że wartości nie zostaną przeliczone, a jedynie przepisane z
+wklejonych danych</p></li>
+<li><p>Współrzędne punktu origin</p></li>
+<li><p>Skala znaku (tylko jeśli taką wcześniej wyśledziliśmy)</p></li>
+<li><p>Skala obramówki (tylko jeśli wybraliśmy wcześniej Skalę)</p></li>
+<li><p>Skala cienia (tylko jeśli wybraliśmy wcześniej Skalę)</p></li>
+<li><p>Skala rozmycia (tylko jeśli wybraliśmy wcześniej Skalę), zadziała
+tylko na rozmycie wygenerowane tagiem <code class="docutils literal notranslate">{\blur}</code></p></li>
+<li><p>Rotacja znaku (tylko jeśli taką wcześniej wyśledziliśmy)</p></li>
+<li><p>Clip prostokątny/wektorowy, a także do prawej strony jest możliwość
+konwersji clipów prostokątnych na wektorowe</p></li>
+</ul>
+<p>Dalej są już tylko modyfikatory:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate">Interpolate transforms</code> - skrypt podejmie próbę przekalkulowania
+transformacji, w przeciwnym razie pozmienia tylko ich czasy</p></li>
+<li><p><code class="docutils literal notranslate">Write config</code> - zapamięta aktualne ustawienia na później</p></li>
+<li><p><code class="docutils literal notranslate">Relative</code> - wybierze klatkę początkową na podstawie aktualnej
+klatki wideo</p></li>
+<li><p><code class="docutils literal notranslate">Clip Only</code> - zaaplikuje zmiany tylko do clipa</p></li>
+<li><p><code class="docutils literal notranslate">Linear</code> - zamiast generować animację klatka po klatce, skrypt
+wygeneruje animację z pomocą tagów <code class="docutils literal notranslate">{\move()}</code> i <code class="docutils literal notranslate">{\t()}</code>,
+pozwoli to zaoszczędzić linijek, jednak nie zawsze jest równie
+skuteczne co standardowa metoda.</p></li>
+</ul>
+<p>Po ustawieniu wszystkich parametrów wystarczy kliknąć <code class="docutils literal notranslate">Go</code> i pozwolić
+skryptowi działać. Po skończonej pracy w naszym pliku pojawią się nowe
+linijki, a stara zostanie wykomentowana, nie będę tu przeklejał
+przykładowego efektu, ale na wideo powinno wyglądać to tak:</p>
+<p><img alt="Znak Ruchomy, Mocha, Wersja Finalna" src="https://media.discordapp.net/attachments/783791354374783016/1045024731511930880/Kguya_01_02.gif"/></p>
+<p>Jeśli twój znak “podskakuje” w dziwny sposób jest szansa, że klatki
+przygotowane przez Mochę nie pokryły się z klatkami w wideo, zazwyczaj
+wystarczy zmienić przy tworzeniu projektu wartość klatek z 23.9 na 24 i
+wyśledzić ruch raz jeszcze, a problem rozwiązuje się sam.</p>
+</section>
+<hr class="docutils"/>
+<section id="pare-slow-na-koniec">
+<h3>Parę słów na koniec<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#pare-slow-na-koniec">¶</a></h3>
+<p>Niezależnie od techinicznej strony wykonania znaku najważniejsza w tym
+wszystkim jest strona estetyczna. [Będę tu posługiwał się swoimi
+przykładami jak i tymi podsuniętymi przez poradnik Commie Subs] Dobry
+znak przede wszystkim nie powinien być inwazyjny na nagraniu, powinien
+wyglądać tak jakby był jednolitą częścią odcinka, najwięcej zależy od
+doboru odpowiedniej czionki, kolorystyki, warto też używać rozmycia,
+dzięki temu znak nie będzie taki “ostry” i będzie lepiej wtapiał się w
+odcinek.</p>
+<p><img alt="Taishou Otome Otogibanashi: odc 2 List do Tamahiko" src="https://user-images.githubusercontent.com/61905404/203612781-d7a7a17d-370f-436e-b294-ed888eaabc92.png"/></p>
+<blockquote>
+<div><p>Taishou Otome Otogibanashi 02; Tłumaczenie: ShinoAlter; Korekta:
+Gruzin; Dla: Shine Subs</p>
+</div></blockquote>
+<p><img alt="CommieSubs guide screen 01" src="https://user-images.githubusercontent.com/61905404/203613093-0021b715-b493-482a-96c4-015fd0b36d97.png"/></p>
+<blockquote>
+<div><p>Wykonało: Commie Subs</p>
+</div></blockquote>
+<p>Pamiętajcie, też że nie każdy dobry znak zakrywa swój oryginał, czasami
+lepiej jest zapisać swoją zawartość w innym miejscu na ekranie, a w
+przypadku podpisów często stworzyć miejsce, którego w oryginale mogło
+nie być</p>
+<p><img alt="Taishou Otome Otogibanashi: odc 1 Sylwester" src="https://user-images.githubusercontent.com/61905404/203611976-4cab68d6-b480-425e-bf9c-4f1d0daf6790.png"/></p>
+<blockquote>
+<div><p>Taishou Otome Otogibanashi 01; Tłumaczenie: ShinoAlter; Korekta:
+Gruzin; Dla: Shine Subs</p>
+</div></blockquote>
+<p><img alt="Taishou Otome Otogibanashi: Podpis" src="https://user-images.githubusercontent.com/61905404/203612652-b34520fd-d98c-4bfa-ade7-2bc6049ea54b.png"/></p>
+<blockquote>
+<div><p>Taishou Otome Otogibanashi 01; Tłumaczenie: ShinoAlter; Korekta:
+Gruzin; Dla: Shine Subs</p>
+</div></blockquote>
+<p><img alt="Louise of the Holy Land: Tytuł" src="https://user-images.githubusercontent.com/61905404/203613956-e92234c4-b81b-4d18-9a73-54fb72665dd5.png"/></p>
+<blockquote>
+<div><p>Louise of the Holy Land; Dla: Commie Subs</p>
+</div></blockquote>
+<p>Ten podoba mi się w szczególności, ze względu na swoją nieoczywistość,
+napis początkowo należał do różowych znaków, na który typsetterowi
+brakło miejsca. Czasem warto pokombinować. <img alt="CommieSubs guide screen 02" src="https://user-images.githubusercontent.com/61905404/203614369-9122b302-3ef4-490b-9ad5-9d907a7a5a7b.png"/></p>
+<div class="line-block">
+<div class="line">Ostatnia porada, pamiętajcie, że warstwy w szczególności mogą mieć
+ciekawe zastosowania - czasami nie warto przekombinowywać, dodatkowe
+warstwy mogą się rozjeżdżać przy skalowaniu, czy ruchu, czasami po
+prostu nie mamy czasu, ale… szczególnie na statycznych napisach
+nawet jedna dodatkowa warstwa potrafi zrobić kolosalną różnicę, warto
+też tak rozdzielać obramówki od głównej części napisów - pozwoli to na
+rozmazanie krawędzi w obu częściach.</div>
+<div class="line"><img alt="CommieSubs guide screen 03.1" src="https://user-images.githubusercontent.com/61905404/203615026-b6b56879-2c1b-40b9-ad49-364bd5123fa8.png"/> <img alt="CommieSubs guide screen 03.2" src="https://user-images.githubusercontent.com/61905404/203615034-fad6f26a-73e9-4611-9f2e-405132c44995.png"/></div>
+</div>
+<blockquote>
+<div><p>Wykonało: Commie Subs</p>
+</div></blockquote>
+</section>
+<hr class="docutils"/>
+<section id="poprobuj-na-tych-plikach">
+<h3>Popróbuj na tych plikach:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#poprobuj-na-tych-plikach">¶</a></h3>
+</section>
+</section>
+<section id="kaguya-odc-1">
+<span id="id2"></span><h2>Kaguya odc. 1<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#kaguya-odc-1">¶</a></h2>
+<div class="line-block">
+<div class="line">Tłumaczenie angielskie wykonane przez: <strong>SubsPlease</strong></div>
+<div class="line"><a class="reference external" href="https://raw.githubusercontent.com/ModerNews/GruzinSubs/master/%5BSubsPlease%5D%20Kaguya-sama%20wa%20Kokurasetai%20S3%20-%2001%20(1080p)%20%5B9816946B%5D.ass?token=GHSAT0AAAAAABZBR35LEAAI4NTC64QTYNOWY36RQ6Q" rel="nofollow noopener">Napisy do
+odcinka<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></div>
+<div class="line"><a class="reference external" href="https://nyaa.si/view/1511966" rel="nofollow noopener">Link do odcinka na nyaa.si<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></div>
+</div>
+</section>
+<section id="citrus-odc-3">
+<span id="id3"></span><h2>Citrus odc. 3<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#citrus-odc-3">¶</a></h2>
+<div class="line-block">
+<div class="line">Tłumaczenie: <strong>Kraksa</strong>, Korekta: <strong>Nowek</strong>, dla: <strong>MaouSubs</strong></div>
+<div class="line"><a class="reference external" href="https://raw.githubusercontent.com/ModerNews/GruzinSubs/master/Kraksa_Citrus_03(3).ass?token=GHSAT0AAAAAABZBR35LHT4VSBFE5HURXZBIY36RRFQ" rel="nofollow noopener">Napisy do
+odcinka<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></div>
+<div class="line"><a class="reference external" href="https://nyaa.si/view/1403136" rel="nofollow noopener">Link do odcinka na nyaa.si<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></div>
+</div>
+<section id="references">
+<h3>References<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#references">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://yukisubs.files.wordpress.com/2016/10/commie_typesetting_in_aegisub.pdf" rel="nofollow noopener">Old typestting guide by
+commiesubs<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+<li><p><a class="reference external" href="https://aegi.vmoe.info/docs/3.1/ASS_Tags/" rel="nofollow noopener">ASS format
+documentation<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+</article>
+<footer>
+<div class="mt-20 mb-4 text-sm text-gray-700 print:mt-4">© 2022, ModerNews Made with <a href="https://www.sphinx-doc.org">Sphinx 4.4.0</a></div>
+</footer></main>
+<button class="fixed bottom-0 right-0 z-20 opacity-0 p-4 m-4 tracking-wide bg-gray-900 text-gray-100 transition transform transform-gpu duration-500 translate-y-full" data-action="search#hideSnackbar" data-search-target="snackbar">
+  Clear highlights
+</button><div class="fixed hidden inset-0 bg-black bg-opacity-50" data-action="click-&gt;sidebar#close" data-sidebar-target="screen">
+</div>
+</div>
+<script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+<script src="_static/jquery.js"></script>
+<script src="_static/underscore.js"></script>
+<script src="_static/doctools.js"></script>
+<script src="_static/theme.3051a0ec24cad00d4d88.js"></script>
+</body>
+</html>

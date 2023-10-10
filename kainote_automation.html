@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
+<title>Kainote: Automatyzacja | Typesetting Guide 1a documentation</title>
+<link href="_static/pygments.css" rel="stylesheet"/>
+<link href="_static/theme.9297a650d9dd3016d913.css" rel="stylesheet"/>
+<link href="search.html" rel="search" title="Search"/>
+<link href="genindex.html" rel="index" title="Index"/>
+<link href="simple_animations.html" rel="next" title="Proste animacje"/>
+<link href="kainote_video_editor.html" rel="prev" title="Edytor graficzny Kainote"/>
+</head>
+<body class="antialiased text-gray scroll-smooth">
+<div class="min-h-screen xl:h-screen flex flex-col xl:grid xl:grid-layout print:block print:h-auto" data-action="keydown@window-&gt;search#focus " data-controller="sidebar search " id="page">
+<a class="block transition -translate-x-full focus:translate-x-0 opacity-0 focus:opacity-100 text-xl bg-white p-4 z-20 absolute top-0 left-0 h-14" href="#kainote-automatyzacja" title="Skip navigation links">Skip to content</a>
+<header class="grid-area-header z-10 h-14 fixed w-full top-0 print:hidden">
+<div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
+<button class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
+<span class="sr-only">Open navigation menu</span>
+<svg aria-hidden="true" class="fill-current h-8 w-8" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+</button><a class="hover:bg-gray-700 focus:bg-gray-700 focus:outline-none" href="index.html" title="Back to homepage"><span class="hidden lg:inline-block shrink-0 font-medium text-gray-100 mx-5 leading-14 tracking-wider">Typesetting Guide 1a documentation</span>
+</a></div><div class="flex justify-end items-center flex-1"><form action="search.html" class="flex print:hidden justify-between items-center leading-14 md:ml-4 bg-gray-dark text-gray-300 focus-within:bg-gray-50 focus-within:text-gray-800 focus-within:absolute focus-within:inset-x-0 focus-within:top-0 md:focus-within:w-full md:focus-within:static z-10" data-action="click-&gt;search#focusSearchInput" id="searchbox" method="get">
+<button aria-label="Get search results" class="text-inherit h-14 w-14" tabindex="-1">
+<svg aria-hidden="true" class="fill-current stroke-current h-8 w-8" stroke-width="0.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+</button>
+<input aria-label="Search the docs" class="pr-2 bg-transparent text-inherit focus:outline-none w-0 md:w-auto focus:w-full transition-all duration-100" data-search-target="searchInput" id="search-input" name="q" placeholder="Search the docs" type="search"/>
+</form></div>
+</div>
+</header>
+<aside class="grid-area-sidebar h-full fixed pt-14 xl:relative inset-y-0 left-0 z-20 xl:z-0 print:hidden overflow-y-auto transition-all transform transform-gpu -translate-x-full opacity-0 duration-300 xl:translate-x-0 xl:opacity-100" data-sidebar-target="sidebar">
+<nav class="h-full overflow-y-auto bg-white text-gray-600 pt-8 flex flex-col" role="navigation">
+<div class="nav-toc flex-1 pl-6"><ul class="current">
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html">Instalacja</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#kainote">Kainote</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#enkodery-wideo">Enkodery Wideo</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#odtwarzacz-wideo">Odtwarzacz wideo</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#quicktime-player">QuickTime Player</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#boris-fx-mocha-pro">Boris FX Mocha Pro</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="instalacja.html#czcionki">Czcionki</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_podstawy.html">Podstawy Obsługi Kainote</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_podstawy.html#edytor-linijki">Edytor linijki</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_podstawy.html#style">Style</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html">Pozycja i Rotacja</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html#pozycja">Pozycja</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html#obrot-w-osi-z">Obrót w osi Z</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="position_rotation.html#obrot-w-osiach-x-i-y">Obrót w osiach X i Y</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html">Odtwarzacz Video - Edytor Graficzny</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#przesuwanie-tekstu">Przesuwanie tekstu</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#ruch">Ruch</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#skalowanie">Skalowanie</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#obrot-w-osi-z">Obrót w osi Z</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#obrot-w-osiach-x-i-y">Obrót w osiach X i Y</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#clipy">Clipy</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#rysowanie">Rysowanie</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="kainote_video_editor.html#zmieniacz-pozycji">Zmieniacz pozycji</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">Automatyzacja Zadań w Kainote</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#aegisub-motion">Aegisub Motion</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#gradient-everything">Gradient Everything</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#recalculateor">Recalculateor</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#perspective-py">Perspective.py</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html">Proste Animacje</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html#fade">Fade</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html#ruch">Ruch</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="simple_animations.html#transformacje">Transformacje</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html">Zaawansowane Animacje - Mocha i Aegisub Motion</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#wykonanie-podstawy-znaku">Wykonanie podstawy znaku</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#konfiguracja-aegisub-motion">Konfiguracja Aegisub-Motion</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#wyciagniecie-wideo-danej-linijki">Wyciągnięcie wideo danej linijki</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#stworzenie-nowego-projektu-w-boris-fx-mocha">Stworzenie nowego projektu w Boris FX Mocha</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#boris-fx-mocha-podstawy">Boris FX Mocha: Podstawy</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#sledzenie-ruchu">Śledzenie ruchu</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="advanced_animations.html#import-do-kainote">Import do Kainote</a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html">Parę słów na koniec</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#poprobuj-na-tych-plikach">Popróbuj na tych plikach:</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#kaguya-odc-1">Kaguya odc. 1</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#citrus-odc-3">Citrus odc. 3</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="summary.html#references">References</a></div></li>
+</ul>
+</li>
+</ul>
+</div>
+<button class="text-4xl text-gray-800 p-4 bottom-0 hover:text-brand xl:hidden focus:text-brand self-center" data-action="sidebar#close" title="Close navigation menu">
+<span class="sr-only">Close navigation menu</span>
+<svg aria-hidden="true" class="fill-current stroke-current h-6 w-6" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+</aside>
+<main class="px-4 pt-14 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col flex-1 h-full mx-0 md:mx-auto xl:mr-0"><nav aria-label="breadcrumbs" class="print:hidden mt-12 text-sm text-gray-light" role="navigation">
+<a class="text-gray-light text-sm hover:text-gray-dark font-medium focus:text-gray-dark" href="index.html">Typesetting Guide 1a documentation</a>
+<span class="mr-1">/</span><span aria-current="page">Kainote: Automatyzacja</span>
+</nav>
+<article class="flex-1" role="main">
+<section id="kainote-automatyzacja">
+<h1>Kainote: Automatyzacja<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#kainote-automatyzacja">¶</a></h1>
+<p>Kainote ma preinstalowanych parę użytecznych skryptów do autoamtyzacji,
+znajdziesz je pod rozwijanym menu na pasku.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To tylko opis paru najczęściej używanych/najprzydatniejszych skryptów, jest jednak sporo bardziej “niszowych” skryptów,
+które możesz znaleźć w skrypcie <strong>Dependency Control</strong> lub na <a class="reference external" href="https://github.com/topics/aegisub" rel="nofollow noopener">githubie<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a>.</p>
+</div>
+<section id="aegisub-motion">
+<h2>Aegisub Motion<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#aegisub-motion">¶</a></h2>
+<div class="line-block">
+<div class="line">Będzie to najczęściej używany przez ciebie skrypt.</div>
+<div class="line">Służy on do generowania zaawansowanych animacji ruchu (śledzenia).</div>
+<div class="line">Opis działania skryptu znajdziesz w sekcji <a class="reference internal" href="advanced_animations.html#advanced-anim"><span class="std std-ref">Zaawansowane animacje</span></a></div>
+</div>
+</section>
+<section id="gradient-everything">
+<h2>Gradient Everything<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#gradient-everything">¶</a></h2>
+<div class="line-block">
+<div class="line">To narzędzie służące do generowania różnego rodzaju gradientów - dynamicznych przejść z jednego stanu do drugiego przez tzw. klatki kluczowe</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Narzędzie pozwala na generowanie gradientów w różnych formach - kolorach, przezrocystości, rotacji, etc.
+Na potrzeby poradnika skupię się na kolorze, jednak pozostałe gradienty tworzy się na takiej samej zasadzie.</p>
+</div>
+<div class="line-block">
+<div class="line">Żeby wygenerować gradient należy stworzyć dwie kopie tej samej
+linijki: pierwszą z kolorem początku gradiientu (górnym, albo lewym),
+drugą z kolorem końcowym (dolnym, albo prawym).</div>
+<div class="line">Na przykład:</div>
+</div>
+<blockquote>
+<div><div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">default</span></div>
+<div class="highlight"><pre><code><span class="n">Dialogue</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">33.54</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">35.50</span><span class="p">,</span><span class="n">On</span> <span class="n">Top</span><span class="p">,,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,,{</span>\<span class="n">pos</span><span class="p">(</span><span class="mf">1018.812</span><span class="p">,</span><span class="mf">841.206</span><span class="p">)</span>\<span class="n">blur1</span>\<span class="mi">3</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H000000</span><span class="o">&amp;&gt;</span> \<span class="n">fs105</span>\<span class="n">bord5</span>\<span class="n">shad5</span>\<span class="n">fnCabold</span> <span class="n">Comic</span>\<span class="mi">1</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H790091</span><span class="o">&amp;</span><span class="p">}</span><span class="o">|</span> <span class="n">Twice</span>
+<span class="n">Dialogue</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">33.54</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mf">35.50</span><span class="p">,</span><span class="n">On</span> <span class="n">Top</span><span class="p">,,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,,{</span>\<span class="n">pos</span><span class="p">(</span><span class="mf">1018.812</span><span class="p">,</span><span class="mf">841.206</span><span class="p">)</span>\<span class="n">blur1</span>\<span class="mi">3</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H000000</span><span class="o">&amp;</span>\<span class="n">fs105</span>\<span class="n">bord5</span>\<span class="n">shad5</span>\<span class="n">fnCabold</span> <span class="n">Comic</span>\<span class="mi">1</span><span class="n">c</span><span class="o">&amp;</span><span class="n">H56083E</span><span class="o">&amp;</span><span class="p">}</span><span class="o">|</span> <span class="n">Twice</span>
+</code></pre></div></div>
+</div></blockquote>
+<div class="line-block">
+<div class="line">Opcjonalnie, możesz stworzyć prostokątny clip wokół jednej z linijek,
+wtedy gradient zostanie wygenerowany jedynie wewnątrz clipu, w
+przeciwnym wypadku ramka zostanie wygenerowana automatycznie przez
+skrypt.</div>
+<div class="line">Z menu wybierz
+<code class="code docutils literal notranslate">Automatyzacja&gt;Gradient Everything&gt;Gradient Everything/Gradient Everything</code>,
+pojawi się nowe okno: <img alt="Gradient Everything" src="https://user-images.githubusercontent.com/61905404/202865975-acf4b641-3b6e-45cd-8bb4-d9ea19c52874.png"/></div>
+<div class="line">W oknie możesz wybrać tagi, które zostaną poddane efektowi gradientu,
+parametr Obok parametru <code class="code docutils literal notranslate">pixels per strip</code> jest kierunek, w którym
+poruszać będzie się gradient.</div>
+<div class="line">Parametr <code class="code docutils literal notranslate">Acceleration</code> zmienia sposób w jaki wygenerowany zostanie
+gradient:</div>
+</div>
+<ul class="simple">
+<li><p>&gt; 1 zaczyna się szybko, kończy powoli</p></li>
+<li><p>&lt; 1 zaczyna się powoli, kończy szybko</p></li>
+</ul>
+<p>Na samym dole okna dialogowego możesz też znaleźć opcję zapisania znajdziesz
+menu z opcjami do zapisywania/wczytywania/edycji gradientów do wielokrotnego użytku</p>
+<p>Efekt wygenerowania gradientu na kolorze z powyższych linijek wygląda
+tak: <img alt="Gradient example" src="https://user-images.githubusercontent.com/61905404/202866234-2beb7536-2f10-4248-80d5-203028b576a0.png"/></p>
+</section>
+<section id="recalculateor">
+<h2>Recalculateor<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#recalculateor">¶</a></h2>
+<p>Recalculator jest prostym sposobem na zmodyfikowanie pojedynczego tagu w
+wielu linijkach na raz <img alt="Recalculator example" src="https://user-images.githubusercontent.com/61905404/202866326-8c5dddcf-d5c6-4468-9384-79002fd4cc2a.png"/></p>
+<div class="line-block">
+<div class="line">Zmodyfikuj jeden z dwóch głownych parametrów - zmianę procentową, albo
+zmianę o wartość, wybierz tagi, które chcesz zmienić.</div>
+<div class="line">W przedostatniej linijce znajdują się modyfikatory, możesz dzięki temu
+zmieniać wartość o więcej z każdą kolejną linijką, np.
+<code class="code docutils literal notranslate">15&gt;30&gt;45&gt;60&gt;75</code> etc.</div>
+<div class="line">Jak widać główne dwie funkcje, z których będziesz korzystać to
+mnożenie/dodawanie, jeśli chciałbyś odjąć wystarczy ustawaić ujemną
+wartość w polu tekstowym</div>
+</div>
+</section>
+<section id="perspective-py">
+<span id="perspectivepy"></span><h2>Perspective.py<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#perspective-py">¶</a></h2>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="https://github.com/TypesettingTools/Perspective/blob/master/perspective.py" rel="nofollow noopener">Script by Zeght on
+Github<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Perspektywa wygenerowana w ten sposób przemieści punkt <code class="code docutils literal notranslate">{\org()}</code>, z tego powodu nie będzie działała w ruchu.</p>
+</div>
+<div class="line-block">
+<div class="line">Jest to narzędzie CLI napisane w pythonie, służące do wygenerowania
+tagów odpowiednich tagów, na podstawie kształtu, które będą odpowiadać rotacji obiektu na
+ekranie. Sposób korzystania z aplikacji jest prosty:</div>
+</div>
+<ol class="arabic">
+<li><p>Za pomocą narzędzia clipu wektorowego narysuj obrys czegoś, co w
+przeszłości było prostokątem od lewego górnego rogu, zgodnie z ruchem
+wskazówek zegara <img alt="Perspective.py step 1" src="https://user-images.githubusercontent.com/61905404/202866844-2de8e767-7aa6-40d6-b4dd-bf9a3b3102dd.png"/></p></li>
+<li><p>Przeklej kształt wygenerowany w tagu <code class="docutils literal notranslate">{\clip()}</code> do konsoli razem z komendą, np.</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">default</span></div>
+<div class="highlight"><pre><code><span class="n">python3</span> <span class="n">perspective</span><span class="o">.</span><span class="n">py</span> <span class="s2">"m 845 78 l 1233 164 1213 218 825 131"</span>
+</code></pre></div></div>
+</li>
+<li><p>Konsola odpowie kilkoma możliwymi perspektywami, wybierz najlepszą i
+przeklej na początek linijki, gotowe!</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">default</span></div>
+<div class="highlight"><pre><code><span class="n">Transforms</span> <span class="n">near</span> <span class="n">center</span> <span class="n">of</span> <span class="n">tetragon</span><span class="p">:</span>
+</code></pre></div></div>
+</li>
+</ol>
+</section>
+</section>
+</article>
+<footer>
+<div class="mt-20 mb-4 text-sm text-gray-700 print:mt-4">© 2022, ModerNews Made with <a href="https://www.sphinx-doc.org">Sphinx 4.4.0</a></div>
+</footer></main>
+<button class="fixed bottom-0 right-0 z-20 opacity-0 p-4 m-4 tracking-wide bg-gray-900 text-gray-100 transition transform transform-gpu duration-500 translate-y-full" data-action="search#hideSnackbar" data-search-target="snackbar">
+  Clear highlights
+</button><div class="fixed hidden inset-0 bg-black bg-opacity-50" data-action="click-&gt;sidebar#close" data-sidebar-target="screen">
+</div>
+</div>
+<script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+<script src="_static/jquery.js"></script>
+<script src="_static/underscore.js"></script>
+<script src="_static/doctools.js"></script>
+<script src="_static/theme.3051a0ec24cad00d4d88.js"></script>
+</body>
+</html>
