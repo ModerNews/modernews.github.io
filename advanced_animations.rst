@@ -11,6 +11,7 @@
 .. |Boris FX Mocha Pro: Tracking Animation| image:: https://media.discordapp.net/attachments/783791354374783016/1045016499368247306/Kguya_01_01.gif?width=1206&height=676
 .. |Boris FX Mocha Pro: Export Tracking Data Dialogue| image:: https://media.discordapp.net/attachments/783791354374783016/1045017879222956092/image.png
 .. |Kainote Automation: Aegisub-Motion/Apply| image:: https://media.discordapp.net/attachments/783791354374783016/1045019941469950146/image.png
+.. |Znak Ruchomy, Mocha, Wersja Finalna| image:: https://media.discordapp.net/attachments/783791354374783016/1045024731511930880/Kguya_01_02.gif
 
 .. _advanced_anim:
 
