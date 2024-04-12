@@ -70,6 +70,37 @@
                 duis.</p>
         </div>
     </div>
+
+    <script>
+        fetch('static/json/skills.json')
+            .then(response => response.json())
+            .then(skillsData => {
+                const skills = document.querySelector('.skills');
+                skillsData.sort((a, b) => b.level - a.level);
+
+                skillsData.forEach((skill, index) => {
+                    const slider = document.createElement('div');
+                    slider.classList.add('slider');
+                    const title = document.createElement('span');
+                    title.classList.add('title');
+                    title.textContent = skill.skill;
+                    slider.appendChild(title);
+                    const dots = document.createElement('div');
+                    dots.classList.add('dots');
+                    for (let i = 0; i < 5; i++) {
+                        const dot = document.createElement('span');
+                        dot.classList.add('dot');
+                        if (i < skill.level) {
+                            dot.classList.add('active');
+                        }
+                        dots.appendChild(dot);
+                    }
+                    slider.appendChild(dots);
+                    skills.appendChild(slider);
+                });
+            })
+            .catch(error => console.error(error));
+    </script>
 </body>
 
 </html>
