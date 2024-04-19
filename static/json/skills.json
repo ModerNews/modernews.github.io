@@ -1,70 +1,29 @@
 [
-    {
-        "skill": "HTML",
-        "level": 3
-    },
-    {
-        "skill": "CSS",
-        "level": 3
-    },
-    {
-        "skill": "JavaScript",
-        "level": 3
-    },
-    {
-        "skill": "React",
-        "level": 2
-    },
-    {
-        "skill": "SQL",
-        "level": 4
-    },
-    {
-        "skill": "Python",
-        "level": 5
-    },
-    {
-        "skill": "Java",
-        "level": 4
-    },
-    {
-        "skill": "C#",
-        "level": 2
-    },
-    {
-        "skill": "Spring",
-        "level": 3
-    },
-    {
-        "skill": "Selenium",
-        "level": 1
-    },
-    {
-        "skill": "Docker",
-        "level": 3
-    },
-    {
-        "skill": "Git",
-        "level": 3
-    },
-    {
-        "skill": "Linux",
-        "level": 4
-    },
-    {
-        "skill": "Bash",
-        "level": 3
-    },
-    {
-        "skill": "Flask",
-        "level": 3
-    },
-    {
-        "skill": "FastAPI",
-        "level": 3
-    },
-    {
-        "skill": "Nginx",
-        "level": 3
-    }
+    "Python",
+    "Java",
+    "SQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "C#",
+    "Lua",
+    "Spring",
+    "Selenium",
+    "Docker",
+    "Git",
+    "Linux",
+    "Bash",
+    "AWK",
+    "Flask",
+    "FastAPI",
+    "Nginx",
+    "Vim",
+    "Pycharm",
+    "VS Code",
+    "IntelliJ IDEA",
+    "Postman",
+    "Gitlab",
+    "GitHub",
+    "Digital Ocean"
 ]
